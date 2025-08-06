@@ -1,10 +1,26 @@
-1. AI Risk Assessment Framework (Demo)
-Folder: risk_assessment_demo/
+from risk_assessment_demo import EUAIActClassifier
 
-├── eu_ai_act_classifier.py
-├── risk_scoring_engine.py
-├── bias_detection_demo.py
-├── compliance_checker.py
-└── executive_dashboard.py
-Purpose: Demonstrate systematic AI risk assessment methodology 
-Real Service: AI Risk Assessment
+# Demonstrate AI system classification
+classifier = EUAIActClassifier()
+
+# Example: Customer service chatbot classification
+ai_system = {
+    'name': 'Customer Service Chatbot',
+    'purpose': 'Automated customer query resolution',
+    'sector': 'financial_services',
+    'user_interaction': 'direct_customer_facing',
+    'decision_impact': 'service_delivery',
+    'data_types': ['personal_data', 'financial_data']
+}
+
+# Perform classification
+classification_result = classifier.classify_ai_system(ai_system)
+
+print(f"Risk Category: {classification_result['risk_category']}")
+print(f"Compliance Requirements: {classification_result['requirements']}")
+print(f"Implementation Timeline: {classification_result['timeline']}")
+
+# Output Example:
+# Risk Category: High-Risk AI System
+# Compliance Requirements: ['risk_management_system', 'data_governance', 'human_oversight']
+# Implementation Timeline: 24 months
