@@ -1,7 +1,7 @@
 # VerityAI Showcase 🛡️
 
 **Enterprise AI Governance & Compliance Excellence**  
-*Created by [Sotirios Spyrou](https://www.linkedin.com/in/sspyrou/) - Technical Marketing Leader*
+*Created by [Sotirios Spyrou](https://www.linkedin.com/in/sspyrou/) - Technical Marketing Expert*
 
 ---
 
